@@ -15,7 +15,10 @@ int main()
 {
 	setlocale(LC_ALL,"");
 	
-	int a, i, num, conta = 0;
+	int a=0;
+	int i=0; 
+	int num=0; 
+	int conta=0;
 
 	printf("que dado como entrada un arreglo unidimensional \nde enteros y un número entero, determine cuántas veces \nse encuentra el número dentro del arreglo\n\n\n");
     printf("Ingrese el tamaño del arreglo: ");
